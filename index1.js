@@ -32,14 +32,9 @@ function ser(orgg,callback){
       });
     });
   }
-
-
-
 };
 
-// var l=ser('google',(err,a)=>{console.log(typeof(a);console.log(typeof(err));  } );
+//its for testing if the ser( ) is working are not!!
 var l=ser('google',(err,a)=>{return a});
-setTimeout(()=>{
-  console.log(l)
-},50000);
+
 module.exports=ser;
